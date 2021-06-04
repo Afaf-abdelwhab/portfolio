@@ -71,3 +71,10 @@ font-size: large;
     margin-left:0;
   }
 }
+@media screen and (max-width:400px) {
+  li a{
+    float:none;
+    text-align:center;
+  }
+}
+
