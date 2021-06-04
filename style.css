@@ -63,13 +63,8 @@ font-size: large;
     height: auto;
     position: relative;
   }
-  li a{
-   display:block;
-    text-align:center;
-    padding:15px;
-  }
+  
   .content{
     margin-left:0;
   }
 }
-
