@@ -36,7 +36,6 @@ img{
 }
 .content{
 margin-left:20%;
-width:80%;
 height:100%;
 overflow: auto;
 padding:5px 10px;
@@ -58,11 +57,15 @@ p{
 font-size: large;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:600px) {
 .navbar {
     width: 100%;
     height: auto;
     position: relative;
+  }
+  li a{
+    float:left;
+    padding:15px;
   }
   .content{
     margin-left:0;
