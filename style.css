@@ -64,17 +64,12 @@ font-size: large;
     position: relative;
   }
   li a{
-    float:left;
+   display:none;
+    text-align:center;
     padding:15px;
   }
   .content{
     margin-left:0;
-  }
-}
-@media screen and (max-width:400px) {
-  li a{
-    float:none;
-    text-align:center;
   }
 }
 
